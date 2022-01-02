@@ -1,0 +1,38 @@
+type: code
+files:
+- name: names.txt
+  visible: true
+  learner_created: true
+- name: planets.txt
+  visible: true
+  learner_created: true
+- name: main.py
+  visible: true
+  text: '# put your python code here'
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6812#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    main.swift:1:1: error: use of unresolved identifier 'number'
+    number = int(input())
+    ^~~~~~
+    main.swift:1:10: error: use of unresolved identifier 'int'; did you mean 'Int'?
+    number = int(input())
+             ^~~
+             Int
+    Swift.Int:1:15: note: 'Int' declared here
+    public struct Int : FixedWidthInteger, SignedInteger, _ExpressibleByBuiltinIntegerLiteral {
+                  ^
+    main.swift:1:14: error: use of unresolved identifier 'input'
+    number = int(input())
+                 ^~~~~
+    main.swift:3:15: error: expected '{' after 'if' condition
+    if number == 0:
+                  ^
+    main.swift:3:4: error: use of unresolved identifier 'number'
+    if number == 0:
+       ^~~~~~
+  time: Tue, 28 Dec 2021 19:51:43 UTC
+record: -1
